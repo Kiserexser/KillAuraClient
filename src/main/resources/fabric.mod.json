@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "killaura-client",
+  "version": "1.0.0",
+  "name": "KillAura Client",
+  "description": "KillAura for Minecraft 1.21.11",
+  "authors": ["SWILL"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/killaura/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.swill.kaura.KillAuraClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
